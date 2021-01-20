@@ -1,0 +1,96 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+
+body {
+    background-image: url(./img/estrelas-espaço-céu-estrelado-ilustração-experiência-vetorial-experiência-preta-noturna-vetor-eps_csp49840544.jpg);
+    justify-content: center;
+    font-family:sans-serif;
+     }
+
+     main{
+         align-items: center;
+     }
+
+     #card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 350px;
+    height: 400px;
+    margin-top: 6%;
+    left: 15px;
+    margin-left: 13%;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px  rgb(171, 16, 243);
+
+    background-color: rgb(0, 0, 0);
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+    color: floralwhite;
+   
+    
+  }
+  body #descricao{
+      color: cornsilk;
+
+  }
+
+  
+
+    body #Titulo {
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        color: cornsilk;
+        font-family:sans-serif
+    }
+
+    header {
+        width: 90%;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 5%;
+        background-color: black;
+        border-radius: 5px;
+    }
+        
+
+
+            img {
+                width: 300px;
+                height: 200px;
+                border-radius: 3px;
+            }
+            
+            button {
+                    appearance: button;
+                    text-rendering: auto;
+                    color:rgb(0, 0, 0);
+                    letter-spacing: normal;
+                    word-spacing: normal;
+                    text-transform: none;
+                    text-indent: 0px;
+                    text-shadow: none;
+                    display: inline-block;
+                    text-align: center;
+                    align-items: flex-start;
+                    cursor: default;
+                    background-color:  rgb(249, 246, 250);
+                    box-sizing: border-box;
+                    margin: 0em;
+                    font: 400 13.3333px Arial;
+                    padding: 3px 20px;
+                    border-style:double;
+                    border-color: rgb(0, 0, 0);
+                    border-image: initial;
+                    border-radius: 10px;}
+
+                  
