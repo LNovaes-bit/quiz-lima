@@ -1,10 +1,13 @@
+var pontos = 50;
 function pergunta1(){
 let alt11 = document.getElementById("alt11").checked
 let resultado = "Acertou!"
 let resultado2 = "Errou, tente novamente!"
 
 if (alt11 == true) {
-    document.getElementById("resp1").textContent = resultado
+    document.getElementById("resp1").textContent = resultado;
+    document.getElementById("pontos").textContent = pontos
+    pontos = pontos + 50;
     
 }
 
@@ -20,7 +23,9 @@ function pergunta2(){
     let resultado2 = "Errou, tente novamente!"
     
     if (alt22 == true) {
-        document.getElementById("resp2").textContent = resultado
+        document.getElementById("resp2").textContent = resultado;
+        document.getElementById("pontos").textContent = pontos
+    pontos = pontos + 50;
         
     }
     
@@ -36,7 +41,9 @@ function pergunta2(){
         let resultado2 = "Errou, tente novamente!"
         
         if (alt32 == true) {
-            document.getElementById("resp3").textContent = resultado
+            document.getElementById("resp3").textContent = resultado;
+            document.getElementById("pontos").textContent = pontos
+    pontos = pontos + 50;
             
         }
         
@@ -52,7 +59,10 @@ function pergunta2(){
             let resultado2 = "Errou, tente novamente!"
             
             if (alt43 == true) {
-                document.getElementById("resp4").textContent = resultado
+                document.getElementById("resp4").textContent = resultado;
+                document.getElementById("pontos").textContent = pontos
+    pontos = pontos + 50;
+               
                 
             }
             
@@ -68,7 +78,9 @@ function pergunta2(){
                 let resultado2 = "Errou, tente novamente!"
                 
                 if (alt53 == true) {
-                    document.getElementById("resp5").textContent = resultado
+                    document.getElementById("resp5").textContent = resultado;
+                    document.getElementById("pontos").textContent = pontos
+    pontos = pontos + 50;
                     
                 }
                 
@@ -84,7 +96,9 @@ function pergunta2(){
                     let resultado2 = "Errou, tente novamente!"
                     
                     if (alt61 == true) {
-                        document.getElementById("resp6").textContent = resultado
+                        document.getElementById("resp6").textContent = resultado;
+                        document.getElementById("pontos").textContent = pontos
+    pontos = pontos + 50;
                         
                     }
                     
@@ -100,7 +114,9 @@ function pergunta2(){
                         let resultado2 = "Errou, tente novamente!"
                         
                         if (alt73 == true) {
-                            document.getElementById("resp7").textContent = resultado
+                            document.getElementById("resp7").textContent = resultado;
+                            document.getElementById("pontos").textContent = pontos
+                            pontos = pontos + 50;
                             
                         }
                         
@@ -116,7 +132,9 @@ function pergunta2(){
                             let resultado2 = "Errou, tente novamente!"
                             
                             if (alt82 == true) {
-                                document.getElementById("resp8").textContent = resultado
+                                document.getElementById("resp8").textContent = resultado;
+                                document.getElementById("pontos").textContent = pontos
+                                  pontos = pontos + 50;
                                 
                             }
                             
@@ -132,7 +150,9 @@ function pergunta2(){
                                 let resultado2 = "Errou, tente novamente!"
                                 
                                 if (alt92 == true) {
-                                    document.getElementById("resp9").textContent = resultado
+                                    document.getElementById("resp9").textContent = resultado;
+                                    document.getElementById("pontos").textContent = pontos
+                                    pontos = pontos + 50;
                                     
                                 }
                                 
@@ -148,7 +168,9 @@ function pergunta2(){
                                     let resultado2 = "Errou, tente novamente!"
                                     
                                     if (alt101 == true) {
-                                        document.getElementById("resp10").textContent = resultado
+                                        document.getElementById("resp10").textContent = resultado;
+                                        document.getElementById("pontos").textContent = pontos
+                                     pontos = pontos + 50;
                                         
                                     }
                                     
@@ -164,7 +186,9 @@ function pergunta2(){
                                         let resultado2 = "Errou, tente novamente!"
                                         
                                         if (alt113 == true) {
-                                            document.getElementById("resp11").textContent = resultado
+                                            document.getElementById("resp11").textContent = resultado;
+                                            document.getElementById("pontos").textContent = pontos
+                                       pontos = pontos + 50;
                                             
                                         }
                                         
@@ -180,7 +204,9 @@ function pergunta2(){
                                             let resultado2 = "Errou, tente novamente!"
                                             
                                             if (alt122 == true) {
-                                                document.getElementById("resp12").textContent = resultado
+                                                document.getElementById("resp12").textContent = resultado;
+                                                document.getElementById("pontos").textContent = pontos
+                                                 pontos = pontos + 50;
                                                 
                                             }
                                             
